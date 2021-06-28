@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	margin:0px;
+	background:url(symphony.png) repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	color:DimGray;
+}
+
+/*****HEADERS*****/
+
+h1, h2, h3, h4{
+	
+}
+
+h1{
+	color:tomato;
+}
+
+h2{
+	color:Salmon;
+}
+
+a.email{
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+
+
+h1.name{
+	margin-bottom:0px;
+	border:10px solid tomato;
+	padding:30px;
+	display:inline;
+}
+
+
+/*****BODY*****/
+
+#wrapper{
+	margin-top:150px;
+}
+
+
+
+
+h2.title{
+	margin-top: 40px;
+    padding: 30px;
+}
+
+.phone-number{
+	color:DarkSeaGreen;
+}
+
+/* -------------- Quote Styles ------------*/
+
+.inspirational-quote {
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+
+
+.linebreak{
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
